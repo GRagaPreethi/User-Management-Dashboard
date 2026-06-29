@@ -82,31 +82,31 @@ user-management-dashboard/
 ├── public/
 ├── src/
 │   ├── api/
-│   │   └── userService.js         # Axios CRUD helpers
+│   │   └── userService.js         
 │   ├── components/
-│   │   ├── ui/                    # shadcn/ui components (pure JSX)
-│   │   ├── ColumnManager.jsx      # Drag-to-reorder + visibility dropdown
-│   │   ├── ConfirmDelete.jsx      # Delete confirmation modal
-│   │   ├── ErrorMessage.jsx       # Error banner
-│   │   ├── FilterPopup.jsx        # Multi-field filter modal
-│   │   ├── Header.jsx             # Dashboard header
-│   │   ├── Pagination.jsx         # Page controls
-│   │   ├── SearchBar.jsx          # Debounced search
-│   │   ├── StatsCards.jsx         # Summary stats cards
-│   │   ├── UserForm.jsx           # Add / Edit modal form
-│   │   ├── UserRow.jsx            # Table row
-│   │   ├── UserTable.jsx          # Sortable table
-│   │   └── UserTableSkeleton.jsx  # Loading skeleton
+│   │   ├── ui/                    
+│   │   ├── ColumnManager.jsx     
+│   │   ├── ConfirmDelete.jsx      
+│   │   ├── ErrorMessage.jsx       
+│   │   ├── FilterPopup.jsx        
+│   │   ├── Header.jsx             
+│   │   ├── Pagination.jsx         
+│   │   ├── SearchBar.jsx          
+│   │   ├── StatsCards.jsx        
+│   │   ├── UserForm.jsx           
+│   │   ├── UserRow.jsx            
+│   │   ├── UserTable.jsx          
+│   │   └── UserTableSkeleton.jsx  
 │   ├── hooks/
 │   │   ├── use-mobile.jsx
 │   │   └── use-toast.js
 │   ├── lib/
-│   │   └── utils.js               # cn() utility
+│   │   └── utils.js               
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
-├── index.html                     # Entry HTML (references src/main.jsx)
-├── vite.config.js                 # Vite config (JavaScript)
+├── index.html                     
+├── vite.config.js                 
 ├── package.json
 └── README.md
 ```
